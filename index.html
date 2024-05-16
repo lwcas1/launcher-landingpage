@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400&f[]=cabinet-grotesk@400&f[]=general-sans@400&display=swap" rel="stylesheet">
+    <title>Game Launcher</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./img/logo.png" alt="Logo do Launcher">
+            <nav>
+                <ul>
+                    <li><a href="#">Seus jogos</a></li>
+                    <li><a href="#">Loja Virtual</a></li>
+                    <li><a href="#">Comunidade</a></li>
+                    <li><a href="#">Suporte</a></li>
+                    <li><a id="button-header" href="#">Inscreva-se!</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="register">
+            <div class="left">
+                <article>
+                    <h1>Venha se cadastrar e acessar o melhor launcher de jogos!</h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam qui odit, officiis laborum excepturi perferendis? Ab tempore accusamus dolorum illum nobis repellendus porro officia voluptatem blanditiis ducimus provident, necessitatibus mollitia.</p>
+                </article>
+                <img src="./img/img-init.svg" alt="Uma representação de uma garota jogando no computador">
+            </div>
+            <div class="right">
+                <div class="box">
+                    <form>
+                        <label for="nameUser">Nome Completo:</label>
+                        <input type="text" id="nameUser" required placeholder="Nome Completo">
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required placeholder="Email">
+                        <br>
+                        <label for="birthDayUser">Data de nascimento:</label>
+                        <input type="date" required id="birthDayUser">
+                        <br>
+                        <label for="passwordUser">Senha:</label>
+                        <input type="password" placeholder="Senha"
+                        required autocomplete="current-password"
+                        id="passwordUser" minlength="4" maxlength="20">
+                        <br>
+                        <input type="submit" value="Cadastrar" id="register-button">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="aboutUs">
+            <div class="left">
+                <div class="textfield">
+                    <h1>SOBRE NÓS</h1><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iure non dolorum animi, facere accusantium mollitia, nihil tenetur modi accusamus enim. Voluptatum delectus suscipit odit distinctio sapiente amet! Assumenda, sit?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam libero repudiandae nostrum facilis velit! Expedita quis quaerat adipisci magni placeat temporibus repudiandae nihil quia quas error modi, voluptatem dolores cumque.</p>
+                </div>
+            </div>
+            <div class="right">
+                <img src="./img/img2.svg" alt="Representação em desenho de um desenvolvedor de software de jogos">
+            </div>
+        </section>
+        <div class="helpButton">
+            <a href="#">?</a>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            <img src="./img/logo2.png" alt="Logo monocromatica do launcher">
+            <h3>&copy; Game Launcher - All Rights Reserved - 2024</h3>
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Redes sociais</a></li>
+                <li><a href="#">Parcerias</a></li>
+                <li><a href="#">Desenvolvedores</a></li>
+                <li><a href="#">Github</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
